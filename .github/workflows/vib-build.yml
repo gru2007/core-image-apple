@@ -19,7 +19,7 @@ jobs:
     steps:
     - name: Verify Base Image Integrity
       run:
-        gh attestation verify oci://ghcr.io/vanilla-os/pico:main --owner Vanilla-OS
+        gh attestation verify oci://ghcr.io/gru2007/pico-t2:main --owner gru2007
       env:
         GH_TOKEN: ${{ github.token }}
 
