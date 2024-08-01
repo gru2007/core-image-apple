@@ -3,7 +3,7 @@ id: core-t2
 
 stages:
 - id: build
-  base: ghcr.io/vanilla-os/pico:main
+  base: ghcr.io/gru2007/pico-t2:main
   singlelayer: false
   labels:
     maintainer: Gru (Ruslan Artemev)
