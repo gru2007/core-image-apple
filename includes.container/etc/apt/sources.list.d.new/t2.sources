@@ -1,6 +1,0 @@
-Types: deb
-URIs: https://github.com/AdityaGarg8/t2-ubuntu-repo/releases/download/sid/
-Suites: sid
-Architectures: amd64
-Components: main contrib non-free non-free-firmware
-Signed-By: /usr/share/keyrings/t2-ubuntu-repo.gpg
