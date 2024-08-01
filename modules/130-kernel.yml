@@ -2,5 +2,5 @@ name: kernel
 type: apt
 source:
   packages:
-  - linux-t2
+  - linux-t2-lts
   - apple-firmware
