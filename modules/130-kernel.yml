@@ -3,3 +3,4 @@ type: apt
 source:
   packages:
   - linux-t2
+  - apple-firmware
