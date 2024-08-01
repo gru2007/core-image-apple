@@ -1,12 +1,12 @@
-name: Vanilla Core
-id: core
+name: Vanilla Core T2-Linux
+id: core-t2
 
 stages:
 - id: build
   base: ghcr.io/vanilla-os/pico:main
   singlelayer: false
   labels:
-    maintainer: Vanilla OS Contributors
+    maintainer: Gru (Ruslan Artemev)
   args:
     DEBIAN_FRONTEND: noninteractive
   runs:
